@@ -1,0 +1,340 @@
+str1 = "This is a string.\nwe are creating it in python."
+
+print(str1)
+
+
+#indexing
+
+str1 = "apna"
+str2 = "collage"
+
+final_str = (str1 +" "+ str2)
+print (final_str) 
+
+#length of str 
+
+str1 = "apna" 
+str2 = "collage"
+print(len(str1))
+print(len(str2))
+
+#indexing 
+
+str = "sage university"
+
+ch = str[8]
+print(ch)
+
+#slicing
+
+str = "mera college"
+print(str[3:11])
+
+#negative index
+
+str = "apple"
+print(str[-5:-3]) 
+
+#str.endswith ("er")
+str = "I am studying python frome apna college"
+
+print(str.endswith("app"))
+
+#str.capitalize 1st char ()
+  
+str = "i am studying python frome apna college"
+print(str.capitalize())
+print(str)
+
+#str.replace(old and new)
+
+str = "I a studying python frome apna college"
+
+print(str.replace("a", "am"))
+
+#str.find(word)
+
+str = "I am studying python frome apna college"
+print(str.find(""))
+
+#str.count("am")
+
+str = "I am studying python frome apna college"
+print(str.count(""))
+
+
+
+#practice qustion 
+
+name = input("inter your name:")
+print("length of your name is",len(name))
+
+
+str = "hy i am the $ simbole $99.9"
+print(str.count("$"))       
+
+#condisnal statment 
+
+age = 21
+if (age >= 18):
+  print ("can drive")
+  print ("can vote")
+
+
+light = "yellow"
+
+if (light == "red"):
+    print("stop")
+elif(light == "green"):
+    print("go")
+elif (light == "yellow"):
+    print("wait")
+else:
+    print("light is broken")
+
+num = 5 
+if(num > 2):
+    print("greter than 2")
+elif(num > 3):
+    print("greter than 3")
+
+
+age = 15
+if(age >=18):
+    print("can vote")
+else:
+    print("can't vote")
+
+
+
+#Q grade of the student 
+
+marks = int(input("enter your marks:"))
+
+if(marks >= 90):
+  grade = "A"
+elif(marks >=80 and marks < 90):
+  grade = "B"
+elif(marks >= 70 and marks < 80):
+  grade = "C"
+else:
+  grade = "D"
+
+  print("grade of the student:",grade)
+
+#nesting 
+
+age = 55
+if(age >= 18):
+  if(age >= 90):
+    print("you can't drive")
+  else:
+     print("you can drive")
+else:
+  print("you can't drive")
+
+#Q. find even or odd
+
+num = 14 
+
+rem = num % 2
+
+if(rem == 0):
+    print("EVEN")
+else:
+    print("ODD")
+
+#Q input number to user and find largest number
+
+a = int(input("type your 1st number:"))
+b = int(input("type your 2nd number:"))
+c = int(input("type your 3rd number:"))
+
+if(a >= b and a >= c):
+  print("number is largest",a)
+elif(b >= c):
+  print("number is largest",b)
+else:
+  print("number largest is",c)
+
+
+##practice qustion
+##indexing 
+
+#Q.1 find the first and last charecter of string "python"
+
+str = "python"
+print(str[0], str[-1])
+
+#Q.2 print the 3rd and 5th charector of "sunstone"
+
+str = "sunstone"
+print(str[3], str[5])
+
+#Q.3 take a string from the user and print the middle character 
+str = input("enter a string: ")
+mid = len(str)//2
+print("middle charecter is:",str[mid])
+
+#Q.4 print the secound charecter of the string "python"
+
+str = "python"
+print(str[1])
+
+##length of string
+
+#Q.5 find the length of "computer"
+
+s = "computer"
+print(len(s))
+
+#Q.6 take the user's name as input and print its length 
+
+s = input("enter your name:")
+print(len(s))
+
+#Q.7 count how many characters are there in "I LOVE PYTHON"
+
+s = "I LOVE PYTHON"
+print(len(s))
+
+#Q.8 take a sentence "learning python is fun " and print its length 
+
+s = "learning python is fun "
+print(len(s))
+
+## negativ indexing 
+#Q.9 print the last character of "programming"
+
+s = "programming"
+print(s[-1])
+
+#Q.10 print the last 3 characters od "data science"
+
+s = "data science"
+print(s[-3:])
+
+#Q.11 print the second last charector of "collage"
+s = "collage"
+print(s[-2])
+
+#Q.12 print the 5th character from the end of "programming"
+s = "programming"
+print(s[-5])
+
+## string replasing
+#Q13 replace "java" with "python" in "i like java"
+
+s = "i like java"
+print(s.replace("java","python")) 
+
+#Q.14 replace "clean" with "green" in "bhopal is clen city"
+
+s = "bhopal is clean city"
+print(s.replace("clean","green"))
+
+#Q.15 replace "collage" with "university" in "sage collage"
+
+s = "sage collage"
+print(s.replace("collage","university"))
+
+#Q.16 replace "indiya" with "bharat" in "indiya is my country" 
+
+s = "indiya is my country"
+print(s.replace("indiya","bharat")) 
+
+## string count 
+#Q>17  count how many times "a" occurs in "banana"
+s = "banana"
+print(s.count("a"))
+
+#Q.18 count how many times "a" occurs in "sage university bhopal"
+s = "sage university bhopal"
+print(s.count("a"))
+
+#Q.19 count how many times "python" occurs in "i am learning python, python is easy "
+
+s = "i am learning python, python is easy"
+print(s.count("python"))
+
+#Q.20 count how many times "e" appears in "elephant"
+
+s = "elephant"
+print(s.count("e"))
+
+
+## conditinol statment
+
+#Q.21 take a number as input. if it is greater than 0, print"positive" otherwise print "negative"
+
+num = int(input("enter a number: "))
+if num > 0:
+    print("positive")
+else:
+    print("negative")
+
+#Q.22 take the user's age if is 18 or above print "Eligible to vote " otherwise "not eligible"
+
+age = int(input("enter your age:"))
+if(age >= 18):
+    print("eligible to vote")
+else:
+    print("not eligible to vote ")
+
+#Q>23 take two numbers as input and print the bigger one 
+
+a = int(input("enter first number: "))
+b = int(input("enter second number: "))
+if a > b:
+    print("bigger",a)
+else:
+    print("bigger:",b)
+
+#Q.24 take a number as input if it is even, print "even" else print odd
+
+num = int(input("enter a number: "))
+if num % 2 == 0:
+    print("number is even")
+else:
+    print("number is odd") 
+
+#Q25 take the user age (if age > 18 print "adult" else if age > 12 print "teenager" else print "child")
+age = int(input("enter your age: "))
+if age > 18:
+    print("adult")
+elif age >12:
+    print("teenager")
+else:
+    print("child")
+
+#Q.26 take marks as input[ if marks >= 90,print "A grade", elif marks >= 75 print "B grade", elif marks >= 50 print "C grade",else, print "fail"]
+
+marks = float(input("input your marks: "))
+if marks >= 90:
+    print("A grade")
+elif marks >= 75:
+    print("B grade")
+elif marks >= 50:
+    print("C grade")
+else:
+    print("Fail")
+
+#Q.27  password check [if password length >= 8 print  "vailed password" else print to short ]
+
+password = input("enter your password: ")
+if len(password) >= 8:
+    print("vailed password")
+else:
+    print("too short")
+
+#Q28 take a number as input [ if number divisible by 2 and 3 print dividisible by both elif divisible by 2 elif  divisible by 3 else print not divisible by 2 or  ]
+
+num = int(input("enter a number: "))
+if num % 2 == 0 and num % 3 == 0:
+    print("divisible by both")
+elif num % 2 == 0:
+    print("divisible by 2")
+elif num % 3 == 0: 
+    print("divisible by 3")
+else:
+    print("not divisible by 2 or 3")
